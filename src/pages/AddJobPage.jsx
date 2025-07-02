@@ -15,6 +15,13 @@ const AddJobPage = () => {
     const submitForm = (e) =>{
         e.preventDefault();
         console.log(description)
+        console.log(title)
+        console.log(type)
+        console.log(location)
+        console.log(salary)
+        console.log(companyName)
+        console.log(companyDescription)
+        console.log(contactEmail)
     }
 
   return (
